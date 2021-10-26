@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "C4802C21-0841-4537-8964-6E344B645615",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XcodeCloudeTests.xcodeproj",
+        "identifier" : "CEC4F37F2728052D002FD96F",
+        "name" : "XcodeCloudeTestsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

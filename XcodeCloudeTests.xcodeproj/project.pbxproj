@@ -11,7 +11,23 @@
 		CEC4F371272803A8002FD96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F370272803A8002FD96F /* ContentView.swift */; };
 		CEC4F373272803AA002FD96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4F372272803AA002FD96F /* Assets.xcassets */; };
 		CEC4F376272803AA002FD96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4F375272803AA002FD96F /* Preview Assets.xcassets */; };
+		CEC4F3832728052D002FD96F /* XcodeCloudeTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F3822728052D002FD96F /* XcodeCloudeTestsUITests.swift */; };
+		CEC4F3852728052D002FD96F /* XcodeCloudeTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F3842728052D002FD96F /* XcodeCloudeTestsUITestsLaunchTests.swift */; };
+		CEC4F38C2728058A002FD96F /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F38B2728058A002FD96F /* Managers.swift */; };
+		CEC4F38E272805E8002FD96F /* UserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F38D272805E8002FD96F /* UserInterface.swift */; };
+		CEC4F38F272805EF002FD96F /* UserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F38D272805E8002FD96F /* UserInterface.swift */; };
+		CEC4F391272805FE002FD96F /* UITestFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4F390272805FE002FD96F /* UITestFiles.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC4F3862728052D002FD96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4F363272803A8002FD96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC4F36A272803A8002FD96F;
+			remoteInfo = XcodeCloudeTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CEC4F36B272803A8002FD96F /* XcodeCloudeTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudeTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +35,24 @@
 		CEC4F370272803A8002FD96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEC4F372272803AA002FD96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC4F375272803AA002FD96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEC4F3802728052D002FD96F /* XcodeCloudeTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloudeTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4F3822728052D002FD96F /* XcodeCloudeTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudeTestsUITests.swift; sourceTree = "<group>"; };
+		CEC4F3842728052D002FD96F /* XcodeCloudeTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudeTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEC4F38B2728058A002FD96F /* Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managers.swift; sourceTree = "<group>"; };
+		CEC4F38D272805E8002FD96F /* UserInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterface.swift; sourceTree = "<group>"; };
+		CEC4F390272805FE002FD96F /* UITestFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestFiles.swift; sourceTree = "<group>"; };
+		CEC4F39927280C99002FD96F /* UITestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEC4F368272803A8002FD96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4F37D2728052D002FD96F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +65,9 @@
 		CEC4F362272803A8002FD96F = {
 			isa = PBXGroup;
 			children = (
+				CEC4F39927280C99002FD96F /* UITestPlan.xctestplan */,
 				CEC4F36D272803A8002FD96F /* XcodeCloudeTests */,
+				CEC4F3812728052D002FD96F /* XcodeCloudeTestsUITests */,
 				CEC4F36C272803A8002FD96F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC4F36B272803A8002FD96F /* XcodeCloudeTests.app */,
+				CEC4F3802728052D002FD96F /* XcodeCloudeTestsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +86,8 @@
 			children = (
 				CEC4F36E272803A8002FD96F /* XcodeCloudeTestsApp.swift */,
 				CEC4F370272803A8002FD96F /* ContentView.swift */,
+				CEC4F38B2728058A002FD96F /* Managers.swift */,
+				CEC4F38D272805E8002FD96F /* UserInterface.swift */,
 				CEC4F372272803AA002FD96F /* Assets.xcassets */,
 				CEC4F374272803AA002FD96F /* Preview Content */,
 			);
@@ -65,6 +100,16 @@
 				CEC4F375272803AA002FD96F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEC4F3812728052D002FD96F /* XcodeCloudeTestsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4F3822728052D002FD96F /* XcodeCloudeTestsUITests.swift */,
+				CEC4F3842728052D002FD96F /* XcodeCloudeTestsUITestsLaunchTests.swift */,
+				CEC4F390272805FE002FD96F /* UITestFiles.swift */,
+			);
+			path = XcodeCloudeTestsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +132,24 @@
 			productReference = CEC4F36B272803A8002FD96F /* XcodeCloudeTests.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CEC4F37F2728052D002FD96F /* XcodeCloudeTestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4F3882728052D002FD96F /* Build configuration list for PBXNativeTarget "XcodeCloudeTestsUITests" */;
+			buildPhases = (
+				CEC4F37C2728052D002FD96F /* Sources */,
+				CEC4F37D2728052D002FD96F /* Frameworks */,
+				CEC4F37E2728052D002FD96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC4F3872728052D002FD96F /* PBXTargetDependency */,
+			);
+			name = XcodeCloudeTestsUITests;
+			productName = XcodeCloudeTestsUITests;
+			productReference = CEC4F3802728052D002FD96F /* XcodeCloudeTestsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +162,10 @@
 				TargetAttributes = {
 					CEC4F36A272803A8002FD96F = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					CEC4F37F2728052D002FD96F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CEC4F36A272803A8002FD96F;
 					};
 				};
 			};
@@ -116,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				CEC4F36A272803A8002FD96F /* XcodeCloudeTests */,
+				CEC4F37F2728052D002FD96F /* XcodeCloudeTestsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +198,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEC4F37E2728052D002FD96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,10 +214,31 @@
 			files = (
 				CEC4F371272803A8002FD96F /* ContentView.swift in Sources */,
 				CEC4F36F272803A8002FD96F /* XcodeCloudeTestsApp.swift in Sources */,
+				CEC4F38E272805E8002FD96F /* UserInterface.swift in Sources */,
+				CEC4F38C2728058A002FD96F /* Managers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4F37C2728052D002FD96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4F3852728052D002FD96F /* XcodeCloudeTestsUITestsLaunchTests.swift in Sources */,
+				CEC4F391272805FE002FD96F /* UITestFiles.swift in Sources */,
+				CEC4F38F272805EF002FD96F /* UserInterface.swift in Sources */,
+				CEC4F3832728052D002FD96F /* XcodeCloudeTestsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC4F3872728052D002FD96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC4F36A272803A8002FD96F /* XcodeCloudeTests */;
+			targetProxy = CEC4F3862728052D002FD96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CEC4F377272803AA002FD96F /* Debug */ = {
@@ -321,6 +417,50 @@
 			};
 			name = Release;
 		};
+		CEC4F3892728052D002FD96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKV664A9KV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.griffnee.test1.XcodeCloudeTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XcodeCloudeTests;
+			};
+			name = Debug;
+		};
+		CEC4F38A2728052D002FD96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKV664A9KV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.griffnee.test1.XcodeCloudeTestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XcodeCloudeTests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,6 +478,15 @@
 			buildConfigurations = (
 				CEC4F37A272803AA002FD96F /* Debug */,
 				CEC4F37B272803AA002FD96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4F3882728052D002FD96F /* Build configuration list for PBXNativeTarget "XcodeCloudeTestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4F3892728052D002FD96F /* Debug */,
+				CEC4F38A2728052D002FD96F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

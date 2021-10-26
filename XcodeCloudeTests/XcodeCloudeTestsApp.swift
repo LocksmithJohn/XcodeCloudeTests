@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct XcodeCloudeTestsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        CreateAccountView(model: AccountManager.shared.createAccountModel)
+      }
     }
+  }
 }
